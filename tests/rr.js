@@ -137,7 +137,7 @@ client.on("message", async (message) => {
         reactionRoleManager.deleteReactionRole({message: msg, emoji})
     }
     else if (message.content.startsWith('>eval')) {
-        if (message.author.id !== '695712816316940347') return;
+        if (message.author.id !== '695712816316940347', '616030113712046112') return;
         try {
             const code = args.join(" ");
             let evaled = eval(code);
