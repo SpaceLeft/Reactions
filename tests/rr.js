@@ -167,7 +167,7 @@ client.on("message", async (message) => {
     }
 });
 
-client.login("NzgxODc2ODM5ODM5OTU3MDQz.X8EBjQ.63xbz0mOiNbjFMel4dTaIu1y5j4");
+client.login("Nzg5MjIzODkyODg2NzQ5MTk1.X9u8Bw.StQetZRO0ddyBXTNUV_7mIdfCx0");
 
 if (process.env.GET_URL) {
     app.get('/', (_, res) => res.sendStatus(204));
