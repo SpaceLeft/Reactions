@@ -105,7 +105,7 @@ reactionRoleManager.on('missingRequirements', (type, member, reactionRole) => {
 client.on("message", async (message) => {
     const client = message.client;
     const args = message.content.split(' ').slice(1);
-if (message.author.id !== '695712816316940347', '616030113712046112') return;
+if (message.author.id !== '695712816316940347') return;
     // Example
     // >createReactionRole @role :emoji: MessageId
     if (message.content.startsWith('>createReactionRole')) {
@@ -137,7 +137,7 @@ if (message.author.id !== '695712816316940347', '616030113712046112') return;
         reactionRoleManager.deleteReactionRole({message: msg, emoji})
     }
     else if (message.content.startsWith('>eval')) {
-        if (message.author.id !== '695712816316940347', '616030113712046112') return;
+        if (message.author.id !== '695712816316940347') return;
         try {
             const code = args.join(" ");
             let evaled = eval(code);
