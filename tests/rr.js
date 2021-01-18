@@ -167,7 +167,7 @@ if (message.author.id !== '695712816316940347') return;
     }
 });
 
-client.login("Nzg5MjIzODkyODg2NzQ5MTk1.X9u8Bw.JCCHWD7f0W7uDldgHReVy-JUW3s");
+client.login("Nzg5MjIzODkyODg2NzQ5MTk1.X9u8Bw.mzBJ631w59JjlU5ILIWUlVc3O0c");
 
 if (process.env.GET_URL) {
     app.get('/', (_, res) => res.sendStatus(204));
